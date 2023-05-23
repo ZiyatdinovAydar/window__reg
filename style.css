@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+.body__style {
+    background-color: #1B2473;
+}
+
+.enter {
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 412px;
+    left: 35%;
+    top: 25%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.btn__init {
+    position: absolute;
+    width: 137px;
+    height: 16px;
+    left: 452px;
+    top: 11px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #1A226B;
+}
+
+.title {
+    position: absolute;
+    width: 115px;
+    height: 50px;
+    left: 242px;
+    top: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #787878;
+}
+
+.name__email {
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    left: 53px;
+    top: 93px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.email__star {
+    position: absolute;
+    width: 9px;
+    height: 18px;
+    left: 34px;
+    top: 119px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #787878;
+}
+
+.email__input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 509px;
+    height: 49px;
+    left: 45px;
+    top: 112px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #787878;
+}
+
+.name__password {
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    left: 53px;
+    top: 174px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.password__star {
+    position: absolute;
+    width: 9px;
+    height: 18px;
+    left: 34px;
+    top: 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #787878;
+}
+
+.password__input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 509px;
+    height: 49px;
+    left: 45px;
+    top: 193px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #787878;
+}
+
+.checkbox__star {
+    position: absolute;
+    width: 9px;
+    height: 18px;
+    left: 34px;
+    top: 260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #787878;
+}
+
+.checkbox__input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 45px;
+    top: 258px;
+    background: #FFFFFF;
+    border: 2px solid #787878;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.checkbox__label {
+    position: absolute;
+    width: 347px;
+    height: 16px;
+    left: 80px;
+    top: 265px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #787878;
+}
+
+.btn__enter {
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    left: 210px;
+    top: 334px;
+    background: #1A226B;
+    border-radius: 10px;
+}
+
+.btn__text {
+    position: absolute;
+    width: 55px;
+    height: 16px;
+    left: 62px;
+    top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.registration {
+    /*display: none;*/
+    position: absolute;
+    width: 600px;
+    height: 412px;
+    left: 35%;
+    top: 25%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.btn__in {
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 480px;
+    top: 10px;
+    font-family: 'Roboto';
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    border: none;
+    background-color: #FFFFFF;
+    color: #1A226B;
+}
+
+.title__reg {
+    position: absolute;
+    width: 302px;
+    height: 50px;
+    left: 149px;
+    top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #787878;
+}
+
+.btn__reg {
+    position: absolute;
+    width: 180px;
+    height: 52px;
+    left: 210px;
+    top: 334px;
+    background: #1A226B;
+    border-radius: 10px;
+}
+
+.btn__text1 {
+    position: absolute;
+    width: 145px;
+    height: 16px;
+    left: 17px;
+    top: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.email__erorr {
+    position: absolute;
+    width: 165px;
+    height: 16px;
+    left: 46px;
+    top: 160px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: #CB2424;
+}
+
+.password__erorr {
+    position: absolute;
+    width: 450px;
+    height: 16px;
+    left: 46px;
+    top: 240px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: #CB2424;
+}
+
+.checkbox__erorr {
+    position: absolute;
+    width: 165px;
+    height: 16px;
+    left: 46px;
+    top: 284px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: #CB2424;
+}

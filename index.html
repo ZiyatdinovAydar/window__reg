@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="body__style" id="body">
+
+    <!--Окно Входа-->
+    <form action="#" class="enter" id="enter" novalidate>
+        <button class="btn__init" id="btn__init">Зарегистрироваться</button>
+
+        <p class="title">Вход</p>
+
+
+        <div class="email">
+            <p class="name__email">Email</p>
+            <p class="email__star star2" id="emailStar1">*</p>
+
+            <input class="email__input field1" type="email" value="" placeholder="Введите email" id="emailInput">
+
+            <span class="email__erorr errorAll1"><!--Поле обязательно для заполнения--></span>
+        </div>
+
+        <div class="password">
+            <p class="name__password">Пароль</p>
+            <p class="password__star star2" id="passwordStar1">*</p>
+
+            <input class="password__input field1" type="password" name="password" placeholder="Введите пароль" id="passwordInput">
+
+            <span class="password__erorr errorAll1" id="passwordErorr"><!--Поле обязательно для заполнения--><!--Логин и пароль не верный--></span>
+        </div>
+
+
+        <p class="checkbox__star star2" id="checkboxStar">*</p>
+        <input class="checkbox__input check" type="checkbox" id="checkboxInput" name="checkbox">
+
+        <p class="checkbox__label" for="">
+            Я согласен с <u>Правилами пользования приложением</u>
+        </p>
+
+        <span class="checkbox__erorr errorAll1" id="checkboxErorr1"><!--Поле обязательно для заполнения--></span>
+
+        <button type="submit" class="btn__enter" id="btn-enter">
+            <p class="btn__text">Вход</p>
+        </button>
+    </form>
+
+    <!--Окно регистрации-->
+
+    <form action="#" class="registration" id="reg" novalidate>
+
+        <button class="btn__in" id="btn__in">Авторизация</button>
+
+        <p class="title__reg">Регистрация</p>
+
+        <div class="email">
+            <p class="name__email">Email</p>
+
+            <p class="email__star star1" id="emailStar2">*</p>
+
+            <input class="email__input field" type="email" name="email" id="emailLog" placeholder="Введите email">
+
+            <span class="email__erorr errorAll" id="emailErorr2"><!--Поле обязательно для заполнения--></span>
+        </div>
+
+        <div class="password">
+            <p class="name__password name__password-reg">Пароль</p>
+            <p class="password__star star1" id="passwordStar2">*</p>
+
+            <input class="password__input field" type="password" id="passwordLog" placeholder="Введите пароль">
+
+            <span class="password__erorr errorAll"><!--Поле обязательно для заполнения--></span>
+
+        </div>
+
+        <div class="checkbox">
+            <p class="checkbox__star star1" id="checkboxStar2">*</p>
+
+            <input class="checkbox__input" type="checkbox" id="checkboxInput2">
+
+            <label class="checkbox__label " for=" ">Я согласен получать обновления на почту</label>
+
+            <span class="checkbox__erorr errorAll"><!--Поле обязательно для заполнения--></span>
+        </div>
+
+        <button type="submit" class="btn__reg" id="btn-reg">
+            <p class="btn__text1 ">Регистрация</p>
+        </button>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
